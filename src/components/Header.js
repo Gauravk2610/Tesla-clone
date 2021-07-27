@@ -97,6 +97,7 @@ const Container = styled.div`
         width: 120px;
         height: 18px;
     }
+
 `
 
 const Menu = styled.div`
@@ -170,7 +171,7 @@ const BurgerNav = styled.div`
     flex-direction: column;
     text-align: start;
     overflow: scroll;
-    transform: ${props => props.show ? 'translaX(0)':'translateX(100%)'};
+    transform: ${props => props.show ? 'translateX(0)':'translateX(100%)'};
     transition: transform 0.2s;
     li {
         margin-top: 10px;
